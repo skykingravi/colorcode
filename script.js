@@ -20,7 +20,7 @@ window.addEventListener("keypress", (key) => {
     }
 });
 
-window.addEventListener("click", () => {
+document.body.addEventListener("click", () => {
         genclr();
 });
 
