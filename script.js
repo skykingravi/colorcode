@@ -20,6 +20,10 @@ window.addEventListener("keypress", (key) => {
     }
 });
 
+document.body.addEventListener("click", () => {
+        genclr();
+});
+
 function lightOrDark(color) {
 
     // Variables for red, green, blue values
